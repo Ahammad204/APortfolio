@@ -41,4 +41,16 @@ nav{
 .button:active {
   background-color: #c85000;
 }
-  
+
+
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .navigation-option{
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+}

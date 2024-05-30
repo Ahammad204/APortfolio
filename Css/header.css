@@ -1,0 +1,44 @@
+
+/* Navbar Styling */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.logo h1{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.navigation-option{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.navigation-option p {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.button {
+  align-items: center;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+
+}
+
+.button:active {
+  background-color: #c85000;
+}
+  

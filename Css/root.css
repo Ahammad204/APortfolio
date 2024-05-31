@@ -19,5 +19,11 @@
     color: var(--font-primary-color);
 }
 
+@media only screen and (min-width: 200px) and (max-width: 576px){
+    .container{
+        padding: 0px 10px;
+       
+    }
+}
 
 

@@ -4,13 +4,30 @@
   display: flex;
   margin: 90px 0px;
   justify-content: space-between;
+  
+}
+
+/* My Experience Section */
+.my-experience-section {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #9b6b25 0%, #73352f 50%, #542c68 100%);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.experience-time{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid var(--font-primary-color);
 }
 
 @media only screen and (min-width: 200px) and (max-width: 576px) {
   .about-me-section {
     flex-direction: column;
     margin: 50px 0px;
-   justify-content: center;
+    justify-content: center;
     gap: 50px;
   }
 }

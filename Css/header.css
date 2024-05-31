@@ -43,6 +43,83 @@ nav{
 }
 
 
+/* Banner Style */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0px;
+}
+
+.banner-title{
+    text-transform: uppercase;
+    margin: 10px 0px;
+    
+}
+.banner-title p{
+
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.banner-title img{
+    width: 25px;
+    height: 25px;
+}
+
+.banner-disc{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 20px 0px;
+}
+.banner-skill{
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.banner-skill img{
+    width: 20px;
+    height: 20px;
+}
+
+.banner-portfolio-hire{
+    display: flex;
+    border: 2px solid #3a3a3a;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 30px 0px;
+    align-items: center;
+    gap: 20px;
+}
+.portfolio-btn{
+    display: flex;
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 15px;
+    width: fit-content;
+    cursor: pointer;
+}
+.portfolio-btn img{
+    width: 20px;
+    height: 20px;
+}
+.hire-me{
+    margin-right:10px;
+    cursor: pointer;
+}
+.banner-social{
+    display: flex;
+    gap: 20px;
+}
+.banner-social img{
+  cursor: pointer;
+}
+
+
 @media only screen and (min-width: 200px) and (max-width: 576px){
     nav{
         flex-direction: column;
@@ -52,5 +129,11 @@ nav{
         flex-direction: column;
         gap: 30px;
         
+    }
+
+    .banner-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }

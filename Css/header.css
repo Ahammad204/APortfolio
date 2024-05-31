@@ -47,7 +47,7 @@ nav{
 .banner-section{
     display: flex;
     justify-content: space-between;
-    margin: 90px 0px;
+    margin: 65px 0px;
 }
 
 .banner-title{
@@ -120,6 +120,29 @@ nav{
 }
 
 
+.banner-img img{
+    height: 450px;
+    margin: 0px;
+}
+
+.skill{
+    text-transform: uppercase;
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+    position: absolute;
+    rotate: -3deg;
+    background-color: black;
+    padding: 20px;
+    bottom: -70px;
+}
+
+.skill img{
+    width: 20px;
+    height: 20px;
+}
+
+
 @media only screen and (min-width: 200px) and (max-width: 576px){
     nav{
         flex-direction: column;
@@ -136,4 +159,23 @@ nav{
         align-items: center;
         justify-content: center;
     }
+
+    .banner-img img{
+       width: 350px;
+       height: 350px;
+       margin: 40px 10px;
+    }
+    .skill {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center; 
+        text-align: center; 
+        gap: 20px;
+        bottom: auto;
+        rotate: 0deg;
+        background-color:transparent;
+        margin: 0px;
+        
+    }
+  
 }

@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-:root{
-    --background-color: #1e1e1e;
-    --font-primary-color: #feffff;
-    --primary-color: #FD6F00;
-
+:root {
+  --background-color: #1e1e1e;
+  --font-primary-color: #feffff;
+  --primary-color: #fd6f00;
 }
-*{
-    padding: 0;
-    margin: 0;
-    color: var(--font-primary-color);
-    font-family: "Rubik", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  color: var(--font-primary-color);
+  font-family: "Rubik", sans-serif;
 }
 
-.container{
-    padding: 0px 60px;
+body{
     background-color: var(--background-color);
-    color: var(--font-primary-color);
 }
 
-@media only screen and (min-width: 200px) and (max-width: 576px){
-    .container{
-        padding: 0px 10px;
-       
-    }
+.container {
+  padding: 0px 60px;
+ 
+  color: var(--font-primary-color);
 }
 
-
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .container {
+    padding: 0px 10px;
+  }
+}
